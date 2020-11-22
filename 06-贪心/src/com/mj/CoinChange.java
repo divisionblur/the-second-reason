@@ -49,13 +49,11 @@ public class CoinChange {
 			if (money < faces[i]) {
 				continue;
 			}
-
 			System.out.println(faces[i]);
 			money -= faces[i];
 			coins++;
 			i = faces.length;
 		}
-		
 		System.out.println(coins);
 	}
 }

@@ -1,7 +1,5 @@
 package com.mj;
-
 import java.util.Arrays;
-
 public class Pirate {
 	public static void main(String[] args) {
 		int[] weights = {3, 5, 4, 10, 7, 14, 2, 11};

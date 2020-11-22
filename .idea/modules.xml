@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-排序/01-排序.iml" filepath="$PROJECT_DIR$/01-排序/01-排序.iml" />
+      <module fileurl="file://$PROJECT_DIR$/02-并查集/02-并查集.iml" filepath="$PROJECT_DIR$/02-并查集/02-并查集.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-图/03-图.iml" filepath="$PROJECT_DIR$/03-图/03-图.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-递归/04-递归.iml" filepath="$PROJECT_DIR$/04-递归/04-递归.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-回溯/05-回溯.iml" filepath="$PROJECT_DIR$/05-回溯/05-回溯.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-贪心/06-贪心.iml" filepath="$PROJECT_DIR$/06-贪心/06-贪心.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-分治/07-分治.iml" filepath="$PROJECT_DIR$/07-分治/07-分治.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-动态规划/08-动态规划.iml" filepath="$PROJECT_DIR$/08-动态规划/08-动态规划.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-布隆过滤器/09-布隆过滤器.iml" filepath="$PROJECT_DIR$/09-布隆过滤器/09-布隆过滤器.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-跳表/10-跳表.iml" filepath="$PROJECT_DIR$/10-跳表/10-跳表.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-字符串/11-字符串.iml" filepath="$PROJECT_DIR$/11-字符串/11-字符串.iml" />
+    </modules>
+  </component>
+</project>

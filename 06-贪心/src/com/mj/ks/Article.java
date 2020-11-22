@@ -7,6 +7,7 @@ public class Article {
 	public Article(int weight, int value) {
 		this.weight = weight;
 		this.value = value;
+		//(先把整数变成小数)
 		valueDensity = value * 1.0 / weight;
 	}
 	@Override

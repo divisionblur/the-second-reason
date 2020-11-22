@@ -3,11 +3,12 @@ package com.mj;
 public class LCSubstring {
 
 	public static void main(String[] args) {
-		System.out.println(lcs("ABDCBA", "ABBA"));
+		System.out.println(lcs("ABCD", "BABC"));
 	}
 	
 	static int lcs(String str1, String str2) {
 		if (str1 == null || str2 == null) return 0;
+		//字符串转换成字节数组
 		char[] chars1 = str1.toCharArray();
 		if (chars1.length == 0) return 0;
 		char[] chars2 = str2.toCharArray();
@@ -32,19 +33,20 @@ public class LCSubstring {
 		}
 		return max;
 	}
-	
+	//一维数组的优化
 	static int lcs2(String str1, String str2) {
 		if (str1 == null || str2 == null) return 0;
 		char[] chars1 = str1.toCharArray();
 		if (chars1.length == 0) return 0;
 		char[] chars2 = str2.toCharArray();
 		if (chars2.length == 0) return 0;
+
 		char[] rowsChars = chars1, colsChars = chars2;
 		if (chars1.length < chars2.length) {
 			colsChars = chars1;
 			rowsChars = chars2;
 		}
-		
+		//让一维数组的长度最短，应该挑两个数组中最短的那个，作为列
 		int[] dp = new int[colsChars.length + 1];
 		int max = 0;
 		for (int row = 1; row <= rowsChars.length; row++) {
@@ -53,6 +55,7 @@ public class LCSubstring {
 				int leftTop = cur;
 				cur = dp[col];
 				if (chars1[row - 1] != chars2[col - 1]) {
+					//因为一维数组是滚动的，发现不相等就覆盖
 					dp[col] = 0;
 				} else {
 					dp[col] = leftTop + 1;
@@ -80,5 +83,4 @@ public class LCSubstring {
 		}
 		return max;
 	}
-
 }

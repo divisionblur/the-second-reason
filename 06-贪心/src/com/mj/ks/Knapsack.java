@@ -37,7 +37,6 @@ public class Knapsack {
 				selectedArticles.add(articles[i]);
 			}
 		}
-		
 		System.out.println("【" + title + "】");
 		System.out.println("总价值：" + value);
 		for (int i = 0; i < selectedArticles.size(); i++) {

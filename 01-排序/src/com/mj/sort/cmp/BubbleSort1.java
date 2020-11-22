@@ -15,5 +15,4 @@ public class BubbleSort1<T extends Comparable<T>> extends Sort<T> {
 			}
 		}
 	}
-
 }
